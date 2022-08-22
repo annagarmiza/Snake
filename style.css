@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen");
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Silkscreen", cursive;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+}
+body {
+  height: 95vh;
+  background: linear-gradient(
+    to right,
+    #093028,
+    #237a57
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow: "hidden";
+}
+p {
+  text-align: center;
+  color: white;
+}
+span {
+  padding: 10px;
+}
+canvas {
+  /* background-color: whitesmoke; */
+  position: relative;
+  border-style: solid;
+}
